@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.container {
+  width: 95%;
+  max-width: calc(1200px + 32px);
+  height: 95%;
+  padding: 0 15px 15px;
+  margin: 0 auto;
+}

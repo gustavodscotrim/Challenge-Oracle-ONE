@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://www.alura.com.br/assets/favicon.1647533642.ico"
+      type="image/x-icon"
+    />
+    <title>Decodificador de Texto - Challenge Oracle ONE</title>
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media-query.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <header>
+          <div>
+            <img src="./assets/images/logo-alura.svg" alt="Logo Alura" />
+          </div>
+        </header>
+        <div class="input-field">
+          <textarea
+            name="text-input-field"
+            id="text-input-field"
+            cols="30"
+            rows="10"
+            placeholder="Digite seu texto"
+          ></textarea>
+          <div class="controls">
+            <div class="instruction">
+              <img
+                src="./assets/images/exclamation-circle.svg"
+                alt="Ícone de exclamação cinza."
+              />
+              <p>Atenção! Utilize apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="button-box">
+              <button class="btn btn-encrypt">Criptografar</button>
+              <button class="btn btn-decrypt">Descriptografar</button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="text-output-field">
+        <div class="view-default">
+          <img
+            src="./assets/images/index-ilustration.svg"
+            class="illustration"
+            alt="Ilustração de uma pessoa com uma lupa observando um diamante."
+          />
+          <div class="msg-default">
+            <p>Nenhuma mensagem encontrada</p>
+            <p>
+              Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/javascript/main.js"></script>
+    <footer>
+      <p>© Gustavo Dos Santos Cotrim</p>
+    </footer>
+  </body>
+</html>
